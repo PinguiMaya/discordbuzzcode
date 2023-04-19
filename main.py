@@ -23,7 +23,7 @@ for i in open(name).readlines():
 
 
 file_token = lines
-token = file_token[0]
+token = os.environ.get('token')
 linkweb = "http://127.0.0.1:5000/"
 
 #TEMPLATES VAR
