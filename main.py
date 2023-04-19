@@ -10,19 +10,7 @@ import requests
 token_dir = "discordSECRETS/token.txt"
 
 name = token_dir
-#OBTENER INFORMACIÖN SECRETA
-lines = []
-if  ".txt" in name:
-    name = name
 
-if ".txt" not in name:
-    name = name + ".txt"
-
-for i in open(name).readlines():
-    lines.append(i)
-
-
-file_token = lines
 token = os.environ.get('token')
 linkweb = "http://127.0.0.1:5000/"
 
