@@ -15,6 +15,5 @@ MarkupSafe==2.1.2
 Pillow==9.5.0
 pycparser==2.21
 requests==2.28.2
-txtstr==2.1.0
 urllib3==1.26.15
 Werkzeug==2.2.3
