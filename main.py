@@ -28,7 +28,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return render_template("index.html")
 
 @app.route('/id')
 def get_userinfo():
@@ -63,7 +63,7 @@ def get_userinfo():
                 print(avatar_url + "?size=1024")
                 titlen = f"Discord-{username}"
                 try:
-                    return render_template("index.html",
+                    return render_template("id.html",
                                        style = styles[num_of_style],
                                        title = titlen,
                                        username = username,
